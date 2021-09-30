@@ -55,6 +55,9 @@ inputs:
   environment-type:
     description: ''
     required: true
+  version-name:
+    description: 'Provide version name in order update jira keys for that version'
+    required: false
 
 outputs:
   response:
